@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    gap:30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+    
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+    padding:  30px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    line-height: 30px;
+    border-radius: 10%;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); box-shadow: 0 0 20px #6a11cb, 0 0 40px #2575fc;
+    /* box-shadow: 0 4px 20px rgba(106, 17, 203, 0.5), 0 6px 30px rgba(37, 117, 252, 0.3); */
+
+   }
+div input{
+    text-align:center;
+    border-radius: 20px;
+    height: 30px;
+    border:2px solid red;
+    
+}
+div label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+div input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+button{
+    
+    padding:10px;
+    margin: 15px;
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+    background-color:orange;
+    border: 2px solid orange;
+}
+button:hover{
+    outline-offset: 3px;
+    outline-style: dashed;            
+    border: 2px solid white;
+}
+button:active{
+    background-color: green;
+    color:white;
+    border: 2px solid green;
+
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: #6a11cb;
+    border-radius: 20px;
+    padding: 10px;
+   
+    
+    
+}
+
+li{
+    width: 250px;
+    border: 2px solid white;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.search input{
+    border-radius: 10px;
+    border:1px solid orange;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    
+
+}
